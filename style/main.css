@@ -230,3 +230,12 @@ transition: 0.5s;
 font-size: 3.5em;
 color: var(--dark-grey);
 }
+.cardBox .card:hover{
+  background-color: var(--blue);
+}
+.cardBox .card:hover .numbers,
+.cardBox .card:hover .cardName,
+.cardBox .card:hover .iconBox{
+color: var(--white);
+transition: 0.1s;
+}
